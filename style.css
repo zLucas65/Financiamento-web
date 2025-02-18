@@ -1,0 +1,80 @@
+ /* Importação da fonte */
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+ /* Estilização geral */
+ body {
+     font-family: "Poppins", Arial, sans-serif;
+     margin: 20px;
+     background-color: #f5f5f5;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ /* Container principal */
+ .container {
+     max-width: 600px;
+     width: 96%;
+     text-align: center;
+ }
+
+ /* Estilização da seção principal */
+ section {
+     background-image: linear-gradient(45deg, #BF0426, #CC0A2F, #D97E8E);
+     border-radius: 10px;
+     padding: 20px;
+     width: 500px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+     color: white;
+ }
+
+ /* Estilização do cabeçalho */
+ header h1 {
+     font-size: 18px;
+     margin-bottom: 15px;
+ }
+
+ /* Inputs, Select e Botões */
+ input,
+ select,
+ button {
+     width: 97%;
+     padding: 10px;
+     margin: 5px 0;
+     border-radius: 7px;
+     border: 1px solid #ccc;
+     font-size: 14px;
+ }
+
+ /* Botão de cálculo */
+ button#botao {
+     background-color: rgb(170, 170, 170);
+     font-size: 16px;
+     font-weight: bold;
+     color: #000;
+     cursor: pointer;
+     transition: background 0.3s;
+     font-size: small;
+ }
+
+ button#botao:hover {
+     background-color: rgb(140, 140, 140);
+ }
+
+ /* Lista de resultados */
+ ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ li {
+     display: flex;
+     justify-content: space-between;
+     padding: 8px;
+     border: 1px solid #ccc;
+     margin: 5px 0;
+     background: white;
+     color: black;
+     border-radius: 5px;
+ }

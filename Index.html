@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Financiamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header><h1>Simulador de Financiamento</h1></header>
+    <div class="container">
+        <input type="number" id="valorImovel" placeholder="Valor do Imóvel">
+        <input type="number" id="prazoFinanciamento" placeholder="Prazo em anos">
+        <input type="number" id="taxaJuros" placeholder="Taxa de Juros Anual (%)">
+        <button id="botão" onclick="calcularFinanciamento()">Calcular</button>
+        <button id="limpar" onclick="limparCampos()">Limpar</button>
+        <h2>Resultados</h2>
+        <p id="resultado"></p>
+    </div>
+    </section>
+    <script src="script.js">
+    </script>  
+</body>
+</html>
